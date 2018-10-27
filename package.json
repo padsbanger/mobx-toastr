@@ -1,13 +1,21 @@
 {
   "name": "mobx-toastr",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Tiny Mobx wrapper around Toastr notifications library.",
   "author": "padsbanger",
   "license": "MIT",
   "repository": "padsbanger/mobx-toastr",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
+  "keywords": [
+    "Mobx",
+    "store",
+    "react",
+    "toastr",
+    "notifications",
+    "toast"
+  ],
   "engines": {
     "node": ">=8",
     "npm": ">=5"
