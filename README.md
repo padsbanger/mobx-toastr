@@ -34,6 +34,8 @@ const Root = (
 ReactDOM.render(Root, document.getElementById('root'))
 ```
 
+Working [example](http://michal-lach.pl/mobx-toastr/).
+
 ## API & Documentation
 
 For detailed documentation look [here](https://github.com/CodeSeven/toastr).
