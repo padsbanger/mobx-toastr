@@ -1,6 +1,6 @@
 {
   "name": "mobx-toastr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny Mobx wrapper around Toastr notifications library.",
   "author": "padsbanger",
   "license": "MIT",
@@ -32,7 +32,9 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "mobx": "^5.5.2",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -66,9 +68,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "mobx": "^5.5.2",
-    "toastr": "^2.1.4"
-  }
+  ]
 }
