@@ -52,9 +52,14 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
-    "rollup-plugin-url": "^1.4.0"
+    "rollup-plugin-url": "^1.4.0",
+    "mobx-react": "^5.3.6"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "mobx": "^5.5.2",
+    "toastr": "^2.1.4"
+  }
 }

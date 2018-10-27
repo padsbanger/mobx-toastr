@@ -1,22 +1,9 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import { action } from 'mobx'
+import toastr from 'toastr'
 
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
+export class Tostr {
+  constructor() {
+    super()
+    this.toastr = toastr
   }
 }
