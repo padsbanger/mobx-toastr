@@ -1,26 +1,22 @@
 import { action } from 'mobx'
 import toastr from 'toastr'
 
-export class Toastr {
+export default class Toastr {
   constructor(optionsOverride = {}) {
-    this.toastr = toastr
-    this.toastr.options = {
-      ...this.toastr.options,
+    toastr.options = {
       ...optionsOverride
     }
   }
 
-  @action dispatch(title, message, type) {
-    this.toastr[type](message, title)
+  @action message = (title, message, type) => {
+    toastr[type](message, title)
   }
 
-  @action clear() {
-    this.toastr.clear()
+  @action clear = () => {
+    toastr.clear()
   }
 
-  @action remove() {
-    this.toastr.remove()
+  @action remove = () => {
+    toastr.remove()
   }
 }
-
-export default Toastr

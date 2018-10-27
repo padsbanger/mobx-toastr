@@ -1,6 +1,6 @@
 # mobx-toastr
 
-> 
+> Tiny Mobx wrapper around toastr notifications library.
 
 [![NPM](https://img.shields.io/npm/v/mobx-toastr.svg)](https://www.npmjs.com/package/mobx-toastr) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,16 +15,26 @@ npm install --save mobx-toastr
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'mobx-toastr'
+import Toastr from 'mobx-toastr'
+import '../node_modules/toastr/build/toastr.css';
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
+const options = {
+  closeButton: false
 }
+
+const Root = (
+  <Provider Toastr={new Toastr(options)}>
+    <App />
+  </Provider>
+)
+
+
+ReactDOM.render(Root, document.getElementById('root'))
 ```
+
+## API & Documentation
+
+For detailed documentation look [here](https://github.com/CodeSeven/toastr).
 
 ## License
 
