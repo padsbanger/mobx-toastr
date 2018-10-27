@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+import { observer } from 'react-mobx';
 
-import ExampleComponent from 'mobx-toastr'
-
+@observer
 export default class App extends Component {
   render () {
+    console.log(this);
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        stuff
       </div>
     )
   }

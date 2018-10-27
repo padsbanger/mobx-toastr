@@ -16,6 +16,7 @@
   "rules": {
     // don't force es6 functions to include space before paren
     "space-before-function-paren": 0,
+    "indent": ["error", 2],
 
     // allow specifying true explicitly for boolean props
     "react/jsx-boolean-value": 0
