@@ -8,10 +8,9 @@ import '../node_modules/toastr/build/toastr.css';
 export default class App extends Component {
   render () {
     const { ToastrStore } = this.props
-    console.log(ToastrStore);
     return (
       <div>
-        <button onClick={() => {ToastrStore.message('Error', 'error', 'error')}}>Click meh</button>
+        <button onClick={() => {ToastrStore.success('Success', 'This is success message.')}}>Click meh</button>
       </div>
     )
   }

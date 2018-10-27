@@ -2,7 +2,9 @@
 
 > Tiny Mobx wrapper around toastr notifications library.
 
-[![NPM](https://img.shields.io/npm/v/mobx-toastr.svg)](https://www.npmjs.com/package/mobx-toastr) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/mobx-toastr.svg)](https://www.npmjs.com/package/mobx-toastr)
+[![Build Status](https://travis-ci.org/padsbanger/mobx-toastr.svg?branch=master)](https://travis-ci.org/padsbanger/mobx-toastr)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
